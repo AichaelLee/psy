@@ -183,6 +183,7 @@ export function export_json_to_excel({
     let result = colWidth[0];
     for (let i = 1; i < colWidth.length; i++) {
       for (let j = 0; j < colWidth[i].length; j++) {
+        debugger
         if (result[j]['wch'] < colWidth[i][j]['wch']) {
           result[j]['wch'] = colWidth[i][j]['wch'];
         }

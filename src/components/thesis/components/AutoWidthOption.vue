@@ -1,7 +1,7 @@
 <template>
-  <div style="display:inline-block;maigin-left:0px">
+  <div>
     <el-row>
-      <el-col el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12">
+      <el-col el-col :xs="8" :sm="8" :md="8" :lg="12" :xl="12">
     <label class="radio-label">是否自动调整宽度: </label>
     </el-col>
      <el-col el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12">
